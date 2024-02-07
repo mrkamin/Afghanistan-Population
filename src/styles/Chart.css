@@ -1,0 +1,11 @@
+.svg {
+  height: 70vh;
+}
+
+.chart-age {
+  transform: rotate(-90deg);
+}
+
+.malepop {
+  transform: rotate(-90) !important;
+}
