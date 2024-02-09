@@ -13,3 +13,16 @@
 .chart-container {
   height: 100vh;
 }
+
+@media screen and (max-width: 786px) {
+  .chart-cont-uper-head {
+    flex-direction: column !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .uper-head-left-side {
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+}
