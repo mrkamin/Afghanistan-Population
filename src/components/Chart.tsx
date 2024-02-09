@@ -3,7 +3,7 @@ import SvgChart from './SvgChart';
 
 // Define the Chart component
 const Chart = () => (
-  <div className="chart-container d-flex flex-column gap-2 align-items-center p-5 align-items-center justify-content-center">
+  <div className="chart-container d-flex flex-column gap-2 p-5 justify-content-center">
     {/* Upper header section */}
     <div className="chart-cont-uper-head d-flex w-100 align-items-center justify-content-between">
       {/* Right side of the upper header */}
