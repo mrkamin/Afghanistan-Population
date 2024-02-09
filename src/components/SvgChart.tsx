@@ -1,13 +1,13 @@
 import React from "react";
-import MetaData from "./MetaData";
+import Data from "./Data";
 
 const SvgChart: React.FC = () => {
   const maxValue = Math.max(
-    ...MetaData.map((item) =>
+    ...Data.map((item) =>
       Math.max(item.malePopulation, item.familePopulation)
     )
   );
-  const xScale = 90 / MetaData.length;
+  const xScale = 90 / Data.length;
 
   return (
     <svg xmlns="http://www.w3.org/2000/svg" className="svg w-100">
@@ -87,7 +87,7 @@ const SvgChart: React.FC = () => {
       />
       <svg>
         {/* Render rectangles for male population */}
-        {MetaData.map((item, index) => (
+        {Data.map((item, index) => (
           <rect
             key={index}
             y={`${index * xScale + 3}%`}
@@ -102,7 +102,7 @@ const SvgChart: React.FC = () => {
           />
         ))}
         {/* Render rectangles for female population */}
-        {MetaData.map((item, index) => (
+        {Data.map((item, index) => (
           <rect
             key={index}
             y={`${index * xScale + 3}%`}

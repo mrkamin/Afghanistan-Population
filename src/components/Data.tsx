@@ -1,4 +1,4 @@
-const MetaData = [
+const Data = [
   {
     malePopulation: 1000000,
     familePopulation: 1000000,
@@ -133,4 +133,4 @@ const MetaData = [
   },
 ];
 
-export default MetaData;
+export default Data;
