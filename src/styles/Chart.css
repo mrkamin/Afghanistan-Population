@@ -9,3 +9,7 @@
 .malepop {
   transform: rotate(-90) !important;
 }
+
+.chart-container {
+  height: 100vh;
+}
