@@ -86,6 +86,7 @@ const SvgChart: React.FC = () => {
         strokeWidth="0.5"
       />
       <svg>
+        {/* Render rectangles for male population */}
         {MetaData.map((item, index) => (
           <rect
             key={index}
